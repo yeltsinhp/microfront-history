@@ -9,7 +9,7 @@ export default defineConfig({
       name: "historyMicrofront",
       filename: "remoteEntry.js",
       exposes: {
-        "./PokemonHistory": "./src/components/PokemonHistory.tsx", // 📌 Exponiendo desde la estructura correcta
+        "./PokemonHistory": "./src/components/PokemonHistory.tsx",
       },
       shared: ["react", "react-dom"],
     }),
